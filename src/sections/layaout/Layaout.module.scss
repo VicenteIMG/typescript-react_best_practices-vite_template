@@ -1,0 +1,22 @@
+:root {
+    --header-height:6.25rem
+}
+
+.app__brand {
+  color: #ff0000;
+  font-style: italic;
+}
+
+.header {
+    background-color: #582d2d;
+  
+    &__container {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+  }
+  
